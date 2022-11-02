@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kontakta oss</title>
+    <link rel="stylesheet" type="text/css" href="src/index.css">
+</head>
+
+<body>
+  
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li class="logo"><a href="index.html"><img src="images/mop_logotype - kopia.png" alt="logotype"></a></li>
+                <li><a href="nystart.html">NYSTART</a></li> 
+                <li><a href="rensa.html">RENSA</a></li>
+                <li><a href="fokus.html">FOKUS</a></li>
+                <li><a href="om_mop.html">OM MOP</a></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+         </ul>
+      </nav>
+    </header>
+
+    <main>
+            <!--En kontaktruta med en beskrivning och knappar både för att skicka och för att rensa-->
+            <div class="kontakta">
+                <h1>Ta en första kontakt</h1>
+                    <p>Att ta kontakt, kan kännas obehagligt. Och samtidigt kan det 
+                        vara skönt att skriva av sig och att någon som förstår din situation,
+                        kan hjälpa dig att se din situation på ett nytt sätt. Så om du får 
+                        impulsen, ta kontakt.</p>
+
+                <form class="form" action="#" method="post">
+                    <input type="hidden" name="subject" value="Första steget">
+                    <input type="text" name="namn" placeholder="Namn" required><br>
+                    <input type="email" name="email" placeholder="Email" required><br>
+                    <input type="hidden" name="_next" value="../mindonpoint/tack.html">
+                    <textarea rows="5" cols="30" placeholder="Skriv din text här"></textarea><br>
+                    <button class="button" type="submit">Skicka</button>
+                    <button class="reset" type="reset">Rensa</button>
+                </form>
+            </div>
+
+            <!--Kort information om hur Mind on point hanterar dina uppgifter-->
+            <div class="info">
+                <p>
+                    Mind on Point behåller ditt namn och din epost, tills dess att du fått svar på 
+                    dina frågor eller fungeringar. Därefter raderas informationen. 
+                </p>
+
+            </div>
+    </main>
+
+</body>
+</html>
+Footer
+© 2022 GitHub, Inc.

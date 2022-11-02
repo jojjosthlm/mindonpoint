@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Gäller för body*/
+body {
+    width: 100%;
+    background-color: #FFD581;
+}
+
+/*Den största rubriken med val av font, textstorlek och färgval*/
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    color: #353935;
+}
+
+/*Näst största rubriken med val av font, färg och centrerad text*/
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #353935;
+    text-align: center;
+}
+
+/*Den tredje största rubriken med val av font, färg och centrerad text*/
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    color: #595858;
+    text-align: center;
+}
+
+/*Fjärde största rubriken med fontval, färgval, tjocklek på fonten, avstånd mellan bokstäver och avstånd mellan raderna*/
+h4{
+    font-family: 'Cormorant Garamond', serif;
+    color: #353935;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
+
+/*Paragraferna med val av font, storlek, färg och radavstånd*/
+p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #262625; 
+    line-height: 1.5;
+}
+
+/*Länkar med val av font, storlek och färgval*/
+a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #595858;
+    font-weight: bold;
+}
+
+/*Raderna i våra listor med val av font och storlek*/
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+/*Bild, som kan anpassas efter hur stort fönstret är*/
+img{
+   max-width: 100%;
+}
+
+/*Sidfot med bakgrundsfärg, färg på font, centrerad text, padding uppe och nere.*/
+footer {
+    background-color: #595858;
+    color: #262625;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Knappen på första sidan, med bakgrundsfärg, färg på texten, utan streck under länken, marginal högst
+upp, padding runt om, centrering, att det blir till ett block, hur det ser ut när musen pekar på den och 
+en viss fördröjningeffekt*/
+.btn-front {
+    background-color: #84D9E0;
+    color: #f4f4f4;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+/*För att skapa en hovereffekt med bakgrundsfärg och färval*/
+    .btn-front:hover {
+        background-color: #595858;
+        color: #f4f4f4;
+    }
+
+/*Blå rutan med bakgrundsfärg, padding och radavstånd*/
+.boxblue {
+    background-color: #D8EBF2;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    line-height: 1.5;
+}
+
+/*Paragraf på blå rutan med marginaler höst upp och längst ner*/
+.boxblue p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*Listor i blå rutor med färgval, marginaler till vänster och högst upp, plus radavstånd*/
+.boxblue li{
+    color: #595858;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/*Länkar på blå rutor, som är feta*/
+.boxblue a{
+    font-weight: bold;
+}
+
+/*vit ruta med bakgrund, padding och radavstånd*/
+.boxwhite {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    line-height: 1.5;
+}
+
+/*Vit ruta, paragraf med marginal högst upp*/
+.boxwhite p{
+    margin-top: 20px;
+}
+
+/*Vita rutans listrader med färgval på texten, marginaler och radavstånd*/
+.boxwhite li{
+    color: #595858;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/*Första delen på nystarts sidan, som gör att menyn blir horisontell och centreras både på längden och bredden*/
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Nystarts sidan, texten centreras och padding på vänster sida*/
+.start .nu{
+    text-align: center;
+    padding-left: 30px;
+}
+
+/*På vad och hur sidan finns en sammanfattning, med en vit bakgrund, padding och radavstånd*/
+.samman{
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    line-height: 1.5;
+}
+
+/*Färgen på rubriken på sammanfattningarna*/
+.samman h1{
+    color: #262625;
+}
+
+/*Paragraferna på sammanfattningarna med val av font, storlek, färg och marginaler*/
+.samman p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #262625;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*Listrader med fontval, stolek, färg och vänster marginal*/
+.samman li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #262625;
+    margin-left: 40px;
+}
+
+/*Första delen på om Mop, där texten och bilden radar upp sig horisontellt och centreras, bakgrundsfärg 
+och padding*/
+.mop {
+    display: flex;
+    justify-content: center;
+    background-color: #D8EBF2;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+/*Rubriken placeras till vänster och den får en marginal i botten*/
+.mop h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/*Paragrafens bredd och radavstånd*/
+.mop p{
+    width: 100%;
+    line-height: 1.5;
+}
+
+/*Padding på bilden högst upp*/
+.mop .bild{
+    padding-top: 20px;
+}
+
+/*Kontaktformuläret med bakgrundsfärg, bredd, marginaler, padding, centrerad text och rundade hörn*/
+.kontakta {  
+    background-color: #D8EBF2;
+    width: 450px;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Paragraferna får en marginal, ett radavstånd och radas upp till vänster*/
+.kontakta p{
+    margin: 10px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/*Input rutorna får en font, en storlek, padding, marignal, bredd, ingen ram eller synliga rutor och rundade hörn*/
+.kontakta input{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+/*Textrutan får en font, storlek, marginaler och padding, bredd och rundade hörn ingen ram eller markering runt rutorna 
+samt rundade hörn*/
+.kontakta textarea{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+/*Submit knapp, som får en färg och textfärg, ingen ram, marginal, padding, centeras, fontval, ingen ram
+eller synlig ruta, blir till block och en hand pekar på knappen, en viss fördröjning sker också*/
+.kontakta .button{
+    background-color: #595858;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+/*För att skapa en hover av submitknapp*/
+.kontakta .button:hover{
+    background-color: #FDD70F;
+    color: #262625;
+}
+
+/*Resetknapp på kontaktsedan, samma som submit knappen*/
+.kontakta .reset {
+    background-color: #595858;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+/*För att skapa en hover av submitknapp*/
+.kontakta .reset:hover{
+    background-color: #FDD70F;
+    color: #262625;
+}
+
+/*Information om sekretess med bredd och bakgrund, marginaler, padding och rundade hörn*/
+.info{
+    width: 450px;
+    background-color: #BFBFBF;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/*Valt att ha en mindre font, för att markera att det är som en disclaimer*/
+.info p{
+    font-size: 12px;
+}
+
+/*Horisontel meny, som centrerats horisonntellt och vertikalt, utan bullets eller marginaler*/
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 2em;
+    overflow: hidden;
+}
+
+/*Listpunkternas marginal*/
+#navbar li{
+    margin: 0 1.em;
+}
+
+/*Detta gör så att loggan placeras till vänster men resten till höger*/
+#navbar li.logo{
+    margin-right: auto;
+}
+/*Menys länkar med fontval, storlek, färg, som visas som block utan understrykning*/
+#navbar li a{
+    display: block;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: #595858; 
+}
+
+/*Hovereffekt på länkarna*/
+#navbar li a:hover{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+/*Första sidans rubrik med bredd, centerad, marginaler och padding*/
+#above {
+    /*background-color: #FFD66B;*/
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
